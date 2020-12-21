@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@GetMapping("/hello")
 	public String hello() {
-		String message = "Hello Nikhil! This is AWS Continuous Delivery with Notifications!";
+		String message = "Hello Nikhil! This is updated code for AWS Continuous Delivery with Notifications!";
 		try {
 			InetAddress ip = InetAddress.getLocalHost();
 			message += " From host: " + ip;
